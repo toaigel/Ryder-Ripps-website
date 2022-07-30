@@ -1,0 +1,48 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    background: white;
+    border: 1px solid black;
+}
+h1 {
+    color: white;
+    background-color: black;
+    width: 1310px;
+    font-size: 50px;
+    margin: 96px 65px 0 65px;
+}
+p {
+    width: 1303px;
+    font-size: 25px;
+    margin: 50px 72px 0px 65px;
+}
+.photo {
+    margin: 50px 475px 0 65px;
+}
+.navigation {
+    width: 200px;
+    margin: 50px 1175px 0 65px;
+}
+li {
+    font-size: 25px;
+}
+h2 {
+    color: white;
+    background-color: black;
+    width: 1310px;
+    font-size: 40px;
+    margin: 53px 65px 0 65px;
+}
+.refs {
+    width: 1310px;
+    margin: 53px 65px 0 65px;
+}
+.note {
+    width: 1303px;
+    font-size: 25px;
+    margin: 50px 69px 91px 68px;
+}
