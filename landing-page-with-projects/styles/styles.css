@@ -3,25 +3,26 @@ body {
     margin:0px;
 	padding:0px;
 }
-.wrapper {
-    max-width: 2000px; 
-	height: 2000px; 
-    margin: 0px auto;
-}
 header {
     color: #FFFFFF;
     background-color: #E5E000;
 }
+.wrapper {
+    max-width: 2000px; 
+	height: auto; 
+    margin: auto;
+}
 .image {
-    width: 100%;
-    height: auto;
-    max-width: 1440px;
+    max-width: 2000px; 
+    margin: auto;
 }
 header h1 {
     font-size: 50px;
     font-weight: 700;
-    margin: 0;
     padding: 80px 0 80px 80px;
+    max-width: 2000px; 
+	height: auto; 
+    margin: 0px auto
 }
 header p {
     font-size: 25px;
@@ -29,6 +30,9 @@ header p {
     margin: 0;
     padding: 36px 0 35px 80px;
     text-transform: uppercase;
+    max-width: 2000px; 
+	height: auto; 
+    margin: 0px auto
 }
 main {
     font-size: 50px;
@@ -51,14 +55,16 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+/* footer .wrapper {
+
+} */
 .logo {
-    width: 205px;
     height: 46px;
     margin: 77px 0 77px 80px;
 }
 footer p {
     font-size: 50px;
-    width: 614px;
     font-weight: 700;
     margin: 70px 80px 66px 0;
+    max-width: 700px;
 }
