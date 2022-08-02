@@ -8,6 +8,7 @@ header {
     background-color: #E5E000;
 }
 .wrapper {
+    min-width: 819px;
     max-width: 2000px; 
 	height: auto; 
     margin: auto;
@@ -55,16 +56,17 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-/* footer .wrapper {
-
-} */
+footer .wrapper {
+    padding: 0;
+}
 .logo {
     height: 46px;
     margin: 77px 0 77px 80px;
 }
-footer p {
+.footer-title {
     font-size: 50px;
     font-weight: 700;
+    padding-right: 0;
+    margin-right: 80px;
     margin: 70px 80px 66px 0;
-    max-width: 700px;
 }
